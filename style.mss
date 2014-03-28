@@ -73,7 +73,7 @@ the continents.
 
 @water: #ddeeff;
 @land: #ffffdd;
-@line: #226688;
+@line: white;
 
 /* Water bodies */
 Map { 
@@ -227,4 +227,22 @@ Map {
 */
 
 
+// names of islands, capes, poles, waterfalls, plains 
+#regionpoints {
+  marker-width:6;
+  marker-fill:#f45;
+  marker-line-color:#813;
+  marker-allow-overlap:true;
+}
+
+
+#lakespoly {
+  polygon-opacity:1;
+  polygon-fill:@water;
+}
+
+#riverslakes {
+  line-width:1;
+  line-color:@water;
+}
 

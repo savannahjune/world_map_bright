@@ -39,7 +39,52 @@
       "srs-name": "WGS84",
       "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
       "advanced": {},
-      "name": "geolines"
+      "name": "geolines",
+      "status": "off"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.99999999999997,
+        -85.051,
+        180,
+        84.13416168827533
+      ],
+      "id": "geofeatures",
+      "class": "",
+      "Datasource": {
+        "file": "layers/geofeatures/ne_50m_geography_regions_polys.shp",
+        "id": "country",
+        "project": "world_map_bright",
+        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+      },
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {},
+      "name": "geofeatures",
+      "status": "off"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -173.97673499257252,
+        -75.59185149531842,
+        179.19837487070873,
+        83.62628815311908
+      ],
+      "id": "regionpoints",
+      "class": "",
+      "Datasource": {
+        "file": "layers/regionpoints/ne_50m_geography_regions_points.shp",
+        "id": "regionpoints",
+        "project": "world_map_bright",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "regionpoints",
+      "status": "off"
     },
     {
       "geometry": "polygon",
@@ -47,17 +92,58 @@
         -180,
         -85.051,
         180,
-        83.599609375
+        83.59960937500006
       ],
-      "id": "country",
+      "id": "countries",
       "class": "",
       "Datasource": {
-        "file": "layers/country/ne_50m_land.shp"
+        "file": "layers/countries/ne_50m_admin_0_countries.shp",
+        "id": "countries",
+        "project": "world_map_bright",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "countries"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -165.898486328125,
+        -50.620019531249994,
+        176.08271484375,
+        81.94033203125
+      ],
+      "id": "lakespoly",
+      "class": "",
+      "Datasource": {
+        "file": "layers/lakespoly/ne_50m_lakes.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "lakespoly",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -165.2439391754922,
+        -50.24013722134396,
+        176.32580610572938,
+        73.33490387607145
+      ],
+      "id": "riverslakes",
+      "class": "",
+      "Datasource": {
+        "file": "layers/riverslakes/ne_50m_rivers_lake_centerlines.shp"
       },
       "srs-name": "WGS84",
       "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
       "advanced": {},
-      "name": "country"
+      "name": "riverslakes",
+      "status": "off"
     }
   ],
   "scale": 1,
