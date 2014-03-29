@@ -17,7 +17,8 @@
   "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
   "Stylesheet": [
     "style.mss",
-    "countrycolors"
+    "countrycolors",
+    "labels"
   ],
   "Layer": [
     {
@@ -39,30 +40,7 @@
       "srs-name": "WGS84",
       "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
       "advanced": {},
-      "name": "geolines",
-      "status": "off"
-    },
-    {
-      "geometry": "polygon",
-      "extent": [
-        -179.99999999999997,
-        -85.051,
-        180,
-        84.13416168827533
-      ],
-      "id": "geofeatures",
-      "class": "",
-      "Datasource": {
-        "file": "layers/geofeatures/ne_50m_geography_regions_polys.shp",
-        "id": "country",
-        "project": "world_map_bright",
-        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
-      },
-      "srs-name": "WGS84",
-      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
-      "advanced": {},
-      "name": "geofeatures",
-      "status": "off"
+      "name": "geolines"
     },
     {
       "geometry": "point",
@@ -83,8 +61,7 @@
       "srs-name": "autodetect",
       "srs": "",
       "advanced": {},
-      "name": "regionpoints",
-      "status": "off"
+      "name": "regionpoints"
     },
     {
       "geometry": "polygon",
@@ -123,8 +100,7 @@
       "srs-name": "autodetect",
       "srs": "",
       "advanced": {},
-      "name": "lakespoly",
-      "status": "off"
+      "name": "lakespoly"
     },
     {
       "geometry": "linestring",
@@ -142,8 +118,49 @@
       "srs-name": "WGS84",
       "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
       "advanced": {},
-      "name": "riverslakes",
-      "status": "off"
+      "name": "riverslakes"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.99999999999997,
+        -85.051,
+        180,
+        84.13416168827533
+      ],
+      "id": "geofeatures",
+      "class": "",
+      "Datasource": {
+        "file": "layers/geofeatures/ne_50m_geography_regions_polys.shp",
+        "id": "geofeatures",
+        "project": "world_map_bright",
+        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+      },
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {},
+      "name": "geofeatures"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -180,
+        -85.051,
+        180,
+        83.59960937500006
+      ],
+      "id": "countrylabels",
+      "class": "",
+      "Datasource": {
+        "file": "layers/countrylabels/ne_50m_admin_0_countries.shp",
+        "id": "countrylabels",
+        "project": "world_map_bright",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "countrylabels"
     }
   ],
   "scale": 1,

@@ -8,14 +8,15 @@ rate I want a smaller palette :)
 ***********************************************************************/
 
 @white: #F0F8FF; /* blue-tinted, for Antarctica */
-@red: #fdaf6b;
-@orange: #fdc663;
-@yellow: #fae364;
-@green: #d3e46f;
-@turquoise: #aadb78;
-@blue: #a3cec5;
-@purple: #ceb5cf;
-@pink: #f3c1d3;
+@red: #FFD6CC;
+@orange: #FEDFC3;
+@yellow: #FCFFB5;
+@green: #D1FFC2;
+@turquoise: #E7E7E7;
+@blue: #D5EEFF;
+@purple: #DBC3E1;
+@pink: #CCFFFF;
+  //#FBD8D6;
 @f00: #f00;
 
 /* Coastlines */

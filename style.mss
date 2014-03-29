@@ -71,7 +71,7 @@ the continents.
  
 ***********************************************************************/
 
-@water: #ddeeff;
+@water: #83D2E1;
 @land: #ffffdd;
 @line: white;
 
@@ -183,6 +183,12 @@ Map {
   [zoom=2] { line-width:0.6; }
   [zoom=3] { line-width:0.8; }
   [zoom>3] { line-width:1; }
+   text-name: "[name]";
+   text-face-name: @futura_med;
+   text-size:8;
+   text-halo-fill:rgba(255,255,255,0.5);
+   text-halo-radius:2;
+   text-placement:line;
 }
 
 /*
@@ -227,21 +233,21 @@ Map {
 */
 
 
-// names of islands, capes, poles, waterfalls, plains 
+/* names of islands, capes, poles, waterfalls, plains 
 #regionpoints {
   marker-width:6;
   marker-fill:#f45;
   marker-line-color:#813;
   marker-allow-overlap:true;
 }
-
+*/
 
 #lakespoly {
   polygon-opacity:1;
   polygon-fill:@water;
 }
 
-#riverslakes {
+#riverslakes [zoom >5] {
   line-width:1;
   line-color:@water;
 }
