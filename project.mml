@@ -22,27 +22,6 @@
   ],
   "Layer": [
     {
-      "geometry": "linestring",
-      "extent": [
-        -180,
-        -85.051,
-        180,
-        85.051
-      ],
-      "id": "geolines",
-      "class": "",
-      "Datasource": {
-        "file": "layers/geolines/ne_50m_geographic_lines.shp",
-        "id": "geolines",
-        "project": "world_map_bright",
-        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
-      },
-      "srs-name": "WGS84",
-      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
-      "advanced": {},
-      "name": "geolines"
-    },
-    {
       "geometry": "point",
       "extent": [
         -173.97673499257252,
@@ -83,6 +62,27 @@
       "srs": "",
       "advanced": {},
       "name": "countries"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -180,
+        -85.051,
+        180,
+        85.051
+      ],
+      "id": "geolines",
+      "class": "",
+      "Datasource": {
+        "file": "layers/geolines/ne_50m_geographic_lines.shp",
+        "id": "geolines",
+        "project": "world_map_bright",
+        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+      },
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "advanced": {},
+      "name": "geolines"
     },
     {
       "geometry": "polygon",

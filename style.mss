@@ -175,7 +175,14 @@ Map {
 /* Useful/significant lines */
 //name = Equator International Date Line, Tropic of Cancer, Trop of Capricorn, Equator, Arctic Circle,
 //Antarctic Circle, International Datae Line
-#geolines[zoom<10] {
+#geolines[zoom<6] {
+  text-name: "[name]";
+  text-face-name: @futura_med;
+  text-size:10;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2;
+  text-placement:line;
+  text-dy: 6;
   line-color:@line;
   line-dasharray:6,2;
   [zoom=0] { line-width:0.2; }
@@ -183,12 +190,6 @@ Map {
   [zoom=2] { line-width:0.6; }
   [zoom=3] { line-width:0.8; }
   [zoom>3] { line-width:1; }
-   text-name: "[name]";
-   text-face-name: @futura_med;
-   text-size:8;
-   text-halo-fill:rgba(255,255,255,0.5);
-   text-halo-radius:2;
-   text-placement:line;
 }
 
 /*
