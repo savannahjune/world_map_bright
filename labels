@@ -27,7 +27,7 @@
 
 #cities [zoom > 4] 
   ["featurecla" = 'Admin-0 capital'] {
-  marker-file: url(star-12.svg);
+  marker-file: url(icons/star-12.svg);
   marker-fill: red;
   text-name:'[name]';
   text-face-name: @futura_med;
