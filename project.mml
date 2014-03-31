@@ -64,27 +64,6 @@
       "name": "countries"
     },
     {
-      "geometry": "linestring",
-      "extent": [
-        -180,
-        -85.051,
-        180,
-        85.051
-      ],
-      "id": "geolines",
-      "class": "",
-      "Datasource": {
-        "file": "layers/geolines/ne_50m_geographic_lines.shp",
-        "id": "geolines",
-        "project": "world_map_bright",
-        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
-      },
-      "srs-name": "WGS84",
-      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
-      "advanced": {},
-      "name": "geolines"
-    },
-    {
       "geometry": "polygon",
       "extent": [
         -165.898486328125,
@@ -113,7 +92,10 @@
       "id": "riverslakes",
       "class": "",
       "Datasource": {
-        "file": "layers/riverslakes/ne_50m_rivers_lake_centerlines.shp"
+        "file": "layers/riverslakes/ne_50m_rivers_lake_centerlines.shp",
+        "id": "riverslakes",
+        "project": "world_map_bright",
+        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
       },
       "srs-name": "WGS84",
       "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
@@ -161,6 +143,27 @@
       "srs": "",
       "advanced": {},
       "name": "countrylabels"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -175.22056447761656,
+        -85.051,
+        179.21664709402887,
+        78.21668438639699
+      ],
+      "id": "cities",
+      "class": "",
+      "Datasource": {
+        "file": "layers/cities/ne_50m_populated_places_simple.shp",
+        "id": "cities",
+        "project": "world_map_bright",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "cities"
     }
   ],
   "scale": 1,

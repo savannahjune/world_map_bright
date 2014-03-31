@@ -1,30 +1,7 @@
 /**********************************************************
 
-'Geography Class'
+'World Map Bright'
 =================
-
-Hover Interaction & Embedded Data
----------------------------------
-
-When you move your cursor around the map you should see the 
-name and flag of the country you are hovering over appear
-in the top right. You can pull any attributes from a data
-layer to form tooltips like this. Here, we are pulling a 
-text attribute and a base64-encoded PNG image from a GeoJSON
-file of country polygons. Click on the ☝ icon in the Editing
-tools in the lower left menu bar.
-
-Layers overview
----------------
-
-### country-interaction [countries_interaction.geojson]
-
-This is an invisible layer used to add hover interactivity
-to the map. It is derived fro the 1:50M resolution Natural
-Earth dataset. GeoJSON was chosen over shapefile in this
-instance to allow for the inclusion of base64-encoded PNG
-data (not possible in a DBF due to the limit of
-255 bytes per cell).
 
 
 ### cities [populated_places_by_pop.zip]
@@ -71,7 +48,7 @@ the continents.
  
 ***********************************************************************/
 
-@water: #83D2E1;
+@water: #86c8d5;
 @land: #ffffdd;
 @line: white;
 
@@ -79,120 +56,8 @@ the continents.
 Map { 
   background-color: @water;
 }
-
-/* Required to 'activate' the polygons for interactivity 
-#country-interaction { 
-  polygon-opacity:0;
-}
-
-#lakes[ScaleRank<3][zoom=3],
-#lakes[ScaleRank<4][zoom=4],
-#lakes[ScaleRank<5][zoom=5],
-#lakes[ScaleRank<6][zoom>=6] {
-  polygon-fill:@water;
-  line-color:darken(@water, 20%);
-  line-width:0.3;
-}
-#lakes[ScaleRank<3][zoom=3] {
-  line-width:0.4;
-}
-#lakes[ScaleRank<4][zoom=4] {
-  line-width:0.5;
-}
-#lakes[ScaleRank<5][zoom=5] {
-  line-width:0.6;
-}
-#lakes[ScaleRank<6][zoom>=6] {
-  line-width:0.8;
-}
-
-#rivers[SCALERANK=1][zoom>=3],
-#rivers[SCALERANK=2][zoom>=4],
-#rivers[SCALERANK=3][zoom>=5],
-#rivers[SCALERANK=4][zoom>=5],
-#rivers[SCALERANK=5][zoom>=6],
-#rivers[SCALERANK=6][zoom>=6],
-#rivers[SCALERANK=7][zoom>=7],
-#rivers[SCALERANK=8][zoom>=7],
-#rivers[SCALERANK=9][zoom>=8] {
-  line-color:@line * 1.5;
-  line-join:round;
-}
-#rivers[SCALERANK=1][zoom=3],
-#rivers[SCALERANK=2][zoom=4],
-#rivers[SCALERANK=3][zoom=5],
-#rivers[SCALERANK=4][zoom=5],
-#rivers[SCALERANK=5][zoom=6],
-#rivers[SCALERANK=6][zoom=6],
-#rivers[SCALERANK=7][zoom=7],
-#rivers[SCALERANK=8][zoom=7],
-#rivers[SCALERANK=9][zoom=8] {
-  line-width:0.2;
-  line-opacity:0.4;
-}
-#rivers[SCALERANK=1][zoom=4],
-#rivers[SCALERANK=2][zoom=5],
-#rivers[SCALERANK=3][zoom=6],
-#rivers[SCALERANK=4][zoom=6],
-#rivers[SCALERANK=5][zoom=7],
-#rivers[SCALERANK=6][zoom=7],
-#rivers[SCALERANK=7][zoom=8],
-#rivers[SCALERANK=8][zoom=8],
-#rivers[SCALERANK=9][zoom=9] {
-  line-width:0.4;
-  line-opacity:0.6;
-}
-#rivers[SCALERANK=1][zoom=5],
-#rivers[SCALERANK=2][zoom=6],
-#rivers[SCALERANK=3][zoom=7],
-#rivers[SCALERANK=4][zoom=7],
-#rivers[SCALERANK=5][zoom=8],
-#rivers[SCALERANK=6][zoom=8],
-#rivers[SCALERANK=7][zoom=9],
-#rivers[SCALERANK=8][zoom=9],
-#rivers[SCALERANK=9][zoom=10] {
-  line-width:0.6;
-  line-opacity:0.8;
-}
-#rivers[SCALERANK=1][zoom=6],
-#rivers[SCALERANK=2][zoom=7],
-#rivers[SCALERANK=3][zoom=8],
-#rivers[SCALERANK=4][zoom=8],
-#rivers[SCALERANK=5][zoom=9],
-#rivers[SCALERANK=6][zoom=9],
-#rivers[SCALERANK=7][zoom=10],
-#rivers[SCALERANK=8][zoom=10],
-#rivers[SCALERANK=9][zoom=11] {
-  line-width:0.8;
-  line-opacity:1;
-}
-
-#glacier { 
-  polygon-fill:#fff;
-  polygon-opacity:0.5;
-}
-*/
-/* Useful/significant lines */
-//name = Equator International Date Line, Tropic of Cancer, Trop of Capricorn, Equator, Arctic Circle,
-//Antarctic Circle, International Datae Line
-#geolines[zoom<6] {
-  text-name: "[name]";
-  text-face-name: @futura_med;
-  text-size:10;
-  text-halo-fill:rgba(255,255,255,0.5);
-  text-halo-radius:2;
-  text-placement:line;
-  text-dy: 6;
-  line-color:@line;
-  line-dasharray:6,2;
-  [zoom=0] { line-width:0.2; }
-  [zoom=1] { line-width:0.4; }
-  [zoom=2] { line-width:0.6; }
-  [zoom=3] { line-width:0.8; }
-  [zoom>3] { line-width:1; }
-}
-
 /*
+
 .border.country[zoom>1],
 .border.disputed[zoom>2] {
   line-width:1;
