@@ -105,23 +105,44 @@
     {
       "geometry": "polygon",
       "extent": [
-        -179.99999999999997,
-        -85.051,
-        180,
-        84.13416168827533
+        -178.19451843993755,
+        -43.61945868003225,
+        153.6169609687646,
+        83.11611378149931
       ],
-      "id": "geofeatures",
+      "id": "states",
       "class": "",
       "Datasource": {
-        "file": "layers/geofeatures/ne_50m_geography_regions_polys.shp",
-        "id": "geofeatures",
+        "file": "layers/states/ne_50m_admin_1_states_provinces_lakes.shp",
+        "id": "states",
         "project": "world_map_bright",
-        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+        "srs": ""
       },
-      "srs-name": "WGS84",
-      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "srs-name": "autodetect",
+      "srs": "",
       "advanced": {},
-      "name": "geofeatures"
+      "name": "states"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -175.22056447761656,
+        -85.051,
+        179.21664709402887,
+        78.21668438639699
+      ],
+      "id": "cities",
+      "class": "",
+      "Datasource": {
+        "file": "layers/cities/ne_50m_populated_places_simple.shp",
+        "id": "cities",
+        "project": "world_map_bright",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "cities"
     },
     {
       "geometry": "polygon",
@@ -145,25 +166,25 @@
       "name": "countrylabels"
     },
     {
-      "geometry": "point",
+      "geometry": "polygon",
       "extent": [
-        -175.22056447761656,
+        -179.99999999999997,
         -85.051,
-        179.21664709402887,
-        78.21668438639699
+        180,
+        84.13416168827533
       ],
-      "id": "cities",
+      "id": "geofeatures",
       "class": "",
       "Datasource": {
-        "file": "layers/cities/ne_50m_populated_places_simple.shp",
-        "id": "cities",
+        "file": "layers/geofeatures/ne_50m_geography_regions_polys.shp",
+        "id": "geofeatures",
         "project": "world_map_bright",
-        "srs": ""
+        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
       },
-      "srs-name": "autodetect",
-      "srs": "",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
       "advanced": {},
-      "name": "cities"
+      "name": "geofeatures"
     }
   ],
   "scale": 1,
