@@ -1,0 +1,69 @@
+@futura_med: "Futura Medium","Function Pro Medium","Ubuntu Regular","Trebuchet MS Regular","DejaVu Sans Book";
+@futura_italic: "Futura Medium Italic","Function Pro Medium Italic","Ubuntu Italic","Trebuchet MS Italic","DejaVu Sans Oblique";
+@futura_bold: "Futura Bold","Function Pro Bold","Ubuntu Bold","Trebuchet MS Bold","DejaVu Sans Bold";
+
+
+/* island names #geofeatures [zoom > 4] {
+  [featurecla='Island group'] 
+  {
+    text-name: "[name]";
+    text-face-name: @futura_bold;
+    text-size:10;
+    text-halo-fill:rgba(255,255,255,0.5);
+    text-halo-radius:1;
+    }
+  }
+*/
+
+#states [zoom > 4] {
+  line-width:1;
+  line-color:#fff;
+  text-name:'[name]';
+  text-face-name: @futura_med;
+  text-size:12;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2;
+}
+
+#cities [zoom > 4] 
+  ["featurecla" = 'Admin-0 capital'] {
+  marker-file: url(star-12.svg);
+  marker-fill: red;
+  text-name:'[name]';
+  text-face-name: @futura_med;
+  text-size:10;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2;
+  text-dx:10;
+    }
+
+#countrylabels [zoom > 3] {
+  text-name:"[sovereignt]";
+  text-face-name: @futura_med;
+  text-size:10;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2;
+  text-transform:uppercase;
+  }
+
+#geofeatures [zoom > 1] {
+  [featurecla='Continent'] 
+  {
+    text-name: "[name]";
+    text-face-name: @futura_bold;
+    text-size:18;
+    text-halo-fill:rgba(255,255,255,0.5);
+    text-halo-radius:5;
+    ["name"='NORTH AMERICA'] {
+      text-dy: 80px;
+      }
+    ["name"='EUROPE'] {
+      text-dy: 30px;
+      text-dx:-2px;
+      }
+    ["name"='AFRICA'] {
+      text-dy: -10px;
+      }
+    }
+  }
+  
