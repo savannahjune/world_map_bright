@@ -56,10 +56,10 @@
         "file": "layers/countries/ne_50m_admin_0_countries.shp",
         "id": "countries",
         "project": "world_map_bright",
-        "srs": ""
+        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
       },
-      "srs-name": "autodetect",
-      "srs": "",
+      "srs-name": "WGS84",
+      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
       "advanced": {},
       "name": "countries"
     },

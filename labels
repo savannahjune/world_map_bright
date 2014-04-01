@@ -66,8 +66,7 @@
   }
 
 #countrylabels  { 
-    [scalerank <= 1] 
-    [zoom=4] {
+    [zoom < 4] {
     text-name:"[abbrev]";
     text-face-name: @futura_med;
     text-size:10;
@@ -76,7 +75,7 @@
     text-transform:uppercase;
   }
   
-  [scalerank < 3][zoom=5] {
+  [zoom >= 4] {
     text-name: "[sovereignt]";
     text-face-name: @futura_med;
     text-size:10;
@@ -84,28 +83,10 @@
     text-halo-radius:2;
     text-transform:uppercase;
   }
-  [scalerank < 4][zoom=6] {
+    [zoom >= 6] {
     text-name: "[sovereignt]";
     text-face-name: @futura_med;
-    text-size:11;
-    text-halo-fill:rgba(255,255,255,0.5);
-    text-halo-radius:2;
-    text-transform:uppercase;
-  }
-  [scalerank < 5][zoom=7] {
-    text-name: "[sovereignt]";
-    text-face-name: @futura_med;
-    text-size:12;
-    text-halo-fill:rgba(255,255,255,0.5);
-    text-halo-radius:2;
-    text-transform:uppercase;
-    text-character-spacing:1;
-    text-line-spacing:1;
-  }
-  [scalerank <=6 ][zoom>7] {
-    text-name: "[sovereignt]";
-    text-face-name: @futura_med;
-    text-size:14;
+    text-size:10;
     text-halo-fill:rgba(255,255,255,0.5);
     text-halo-radius:2;
     text-transform:uppercase;
