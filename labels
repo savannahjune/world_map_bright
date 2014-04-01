@@ -15,15 +15,6 @@
   }
 */
 
-#states [zoom > 4] {
-  line-width:1;
-  line-color:#fff;
-  text-name:'[name]';
-  text-face-name: @futura_med;
-  text-size:12;
-  text-halo-fill:rgba(255,255,255,0.5);
-  text-halo-radius:2;
-}
 
 #cities [zoom > 4]
   ["featurecla" = 'Admin-0 capital'] {
