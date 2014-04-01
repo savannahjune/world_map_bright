@@ -166,25 +166,22 @@
       "name": "countrylabels"
     },
     {
-      "geometry": "polygon",
+      "geometry": "point",
       "extent": [
-        -179.99999999999997,
-        -85.051,
-        180,
-        84.13416168827533
+        -109.0000002,
+        -76.1280282,
+        136.1048783,
+        56.0000002
       ],
-      "id": "geofeatures",
+      "id": "continents",
       "class": "",
       "Datasource": {
-        "file": "layers/geofeatures/ne_50m_geography_regions_polys.shp",
-        "id": "geofeatures",
-        "project": "world_map_bright",
-        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+        "file": "layers/continents/continents.geojson"
       },
-      "srs-name": "WGS84",
-      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+      "srs-name": "autodetect",
+      "srs": "",
       "advanced": {},
-      "name": "geofeatures"
+      "name": "continents"
     }
   ],
   "scale": 1,
