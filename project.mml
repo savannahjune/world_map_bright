@@ -74,7 +74,10 @@
       "id": "lakespoly",
       "class": "",
       "Datasource": {
-        "file": "layers/lakespoly/ne_50m_lakes.shp"
+        "file": "layers/lakespoly/ne_50m_lakes.shp",
+        "id": "lakespoly",
+        "project": "world_map_bright",
+        "srs": ""
       },
       "srs-name": "autodetect",
       "srs": "",

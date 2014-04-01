@@ -37,6 +37,7 @@ rate I want a smaller palette :)
 }
 
 #countries::fill[zoom>=0] {
+  ['scalerank'< 5] {
   [sov_a3='ABW'] { polygon-fill:@purple; }
   [sov_a3='AFG'] { polygon-fill:@red; }
   [sov_a3='AGO'] { polygon-fill:@yellow; }
@@ -289,5 +290,6 @@ rate I want a smaller palette :)
   [sov_a3='ZAF'] { polygon-fill:@purple; }
   [sov_a3='ZMB'] { polygon-fill:@orange; }
   [sov_a3='ZWE'] { polygon-fill:@blue; }
-}
+   }
+ }
 
