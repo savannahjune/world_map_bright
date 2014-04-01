@@ -54,7 +54,7 @@ rate I want a smaller palette :)
   line-join:round;
 }
 
-#countries::fill[zoom< 5] {
+#countries::fill[zoom < 5] {
   ['area'> 2] {
   [sov_a3='ABW'] { polygon-fill:@purple; }
   [sov_a3='AFG'] { polygon-fill:@red; }
@@ -137,7 +137,6 @@ rate I want a smaller palette :)
   [sov_a3='FSM'] { polygon-fill:@blue; }
   [sov_a3='GAB'] { polygon-fill:@green; }
   [sov_a3='GAZ'] { polygon-fill:@blue; }
-  [sov_a3='GB1'] { polygon-fill:@blue; }
   [sov_a3='GEO'] { polygon-fill:@blue; }
   [sov_a3='GGY'] { polygon-fill:@purple; }
   [sov_a3='GHA'] { polygon-fill:@pink; }
@@ -308,8 +307,11 @@ rate I want a smaller palette :)
   [sov_a3='ZAF'] { polygon-fill:@purple; }
   [sov_a3='ZMB'] { polygon-fill:@orange; }
   [sov_a3='ZWE'] { polygon-fill:@blue; }
+  [sov_a3='GB1'] { polygon-fill:@blue; }
+  [sov_a3='GB1'] { polygon-fill:@blue; }  
    }
  }
+ 
 
 #countries::fill[zoom>=5] {
   ['area' >= 0] {
@@ -394,7 +396,6 @@ rate I want a smaller palette :)
   [sov_a3='FSM'] { polygon-fill:@blue; }
   [sov_a3='GAB'] { polygon-fill:@green; }
   [sov_a3='GAZ'] { polygon-fill:@blue; }
-  [sov_a3='GB1'] { polygon-fill:@blue; }
   [sov_a3='GEO'] { polygon-fill:@blue; }
   [sov_a3='GGY'] { polygon-fill:@purple; }
   [sov_a3='GHA'] { polygon-fill:@pink; }
@@ -565,6 +566,10 @@ rate I want a smaller palette :)
   [sov_a3='ZAF'] { polygon-fill:@purple; }
   [sov_a3='ZMB'] { polygon-fill:@orange; }
   [sov_a3='ZWE'] { polygon-fill:@blue; }
-   }
+  [sov_a3='GB1'] { polygon-fill:@blue; }
+  }  
  }
 
+//#countries [zoom < 8] {
+//  [sov_a3='GB1'] { polygon-fill:@blue; }
+//  }

@@ -1,17 +1,10 @@
 #states [zoom > 4] {
   line-width:1;
   line-color:#fff;
-  text-name:'[name]';
-  text-face-name: @futura_med;
-  text-size:12;
-  text-halo-fill:rgba(255,255,255,0.5);
-  text-halo-radius:2;
 }
 
-#ukdvision [zoom > 4] {
-  line-width:1;
-  line-color:#fff;
-  text-name:"[NAME_1]";
+#states [zoom > 4] {
+  text-name:'[name]';
   text-face-name: @futura_med;
   text-size:12;
   text-halo-fill:rgba(255,255,255,0.5);
@@ -19,13 +12,28 @@
 }
 	
 
-#ukstates [zoom > 7] {
+#ukstates [zoom >= 8] {
   line-width:0.5;
   line-color:#fff;
+  polygon-fill:@blue
 }
 
-#ukstates [zoom > 7] {
+#ukstateslabels [zoom > 7] {
   text-name:"[NAME_2]";
+  text-face-name: @futura_med;
+  text-size:10;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2;
+}
+
+
+
+
+#ukdivision [zoom > 5]{
+  line-color:#fff;
+  line-width:1;
+  polygon-fill:@blue;
+  text-name:"[NAME_1]";
   text-face-name: @futura_med;
   text-size:10;
   text-halo-fill:rgba(255,255,255,0.5);

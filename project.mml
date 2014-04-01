@@ -109,6 +109,27 @@
     {
       "geometry": "polygon",
       "extent": [
+        -13.691390037536621,
+        49.86541748046875,
+        1.7641680240632134,
+        60.84582138061531
+      ],
+      "id": "ukdivision",
+      "class": "",
+      "Datasource": {
+        "file": "layers/ukdivision/GBR_adm1.shp",
+        "id": "ukdivision",
+        "project": "world_map_bright",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "ukdivision"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
         -178.19451843993755,
         -43.61945868003225,
         153.6169609687646,
@@ -126,6 +147,45 @@
       "srs": "",
       "advanced": {},
       "name": "states"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -13.691390037536621,
+        49.86541748046875,
+        1.7641680240632311,
+        60.84582138061532
+      ],
+      "id": "ukstates",
+      "class": "",
+      "Datasource": {
+        "file": "layers/ukstates/GBR_adm2.shp",
+        "id": "ukstates",
+        "project": "world_map_bright",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "ukstates"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -13.691390037536621,
+        49.86541748046875,
+        1.7641680240632311,
+        60.84582138061532
+      ],
+      "id": "ukstateslabels",
+      "class": "",
+      "Datasource": {
+        "file": "layers/ukstateslabels/GBR_adm2.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "ukstateslabels"
     },
     {
       "geometry": "point",
@@ -186,48 +246,6 @@
       "srs": "",
       "advanced": {},
       "name": "continents"
-    },
-    {
-      "geometry": "polygon",
-      "extent": [
-        -13.691390037536621,
-        49.86541748046876,
-        1.7641680240632136,
-        60.845821380615305
-      ],
-      "id": "ukdivision",
-      "class": "",
-      "Datasource": {
-        "file": "layers/ukdivision/GBR_adm1.shp",
-        "id": "ukdivision",
-        "project": "world_map_bright",
-        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
-      },
-      "srs-name": "WGS84",
-      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
-      "advanced": {},
-      "name": "ukdivision"
-    },
-    {
-      "geometry": "polygon",
-      "extent": [
-        -13.691390037536621,
-        49.86541748046875,
-        1.7641680240632311,
-        60.84582138061532
-      ],
-      "id": "ukstates",
-      "class": "",
-      "Datasource": {
-        "file": "layers/ukstates/GBR_adm2.shp",
-        "id": "ukstates",
-        "project": "world_map_bright",
-        "srs": ""
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {},
-      "name": "ukstates"
     }
   ],
   "scale": 1,
