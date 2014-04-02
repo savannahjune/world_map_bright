@@ -151,6 +151,24 @@
     {
       "geometry": "polygon",
       "extent": [
+        -18.161527633666992,
+        27.637361526489542,
+        4.328195095062277,
+        43.79152679443381
+      ],
+      "id": "spainstates",
+      "class": "",
+      "Datasource": {
+        "file": "layers/spainstates/ESP_adm1.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "spainstates"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
         -13.691390037536621,
         49.86541748046875,
         1.7641680240632311,
@@ -429,6 +447,24 @@
       "srs": "",
       "advanced": {},
       "name": "continents"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -18.161527633666992,
+        27.637361526489542,
+        4.328195095062277,
+        43.79152679443381
+      ],
+      "id": "spainstateslabels",
+      "class": "",
+      "Datasource": {
+        "file": "layers/spainstateslabels/ESP_adm1.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "spainstateslabels"
     }
   ],
   "scale": 1,
