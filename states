@@ -90,7 +90,7 @@
   polygon-fill:@yellow;
 }
 
-#chinastatelabels [zoom > 5] {
+#chinastateslabels [zoom > 5] {
   text-name:"[NAME_1]";
   text-face-name: @futura_med;
   text-character-spacing:1;

@@ -109,6 +109,27 @@
     {
       "geometry": "polygon",
       "extent": [
+        -180,
+        -85.051,
+        179.9998970889459,
+        85.051
+      ],
+      "id": "marinelabels",
+      "class": "",
+      "Datasource": {
+        "file": "layers/marinelabels/ne_50m_geography_marine_polys.shp",
+        "id": "marinelabels",
+        "project": "world_map_bright",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "marinelabels"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
         -13.691390037536621,
         49.86541748046875,
         1.7641680240632134,
@@ -165,6 +186,24 @@
       "srs": "",
       "advanced": {},
       "name": "spainstates"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -18.161527633666992,
+        27.637361526489542,
+        4.328195095062277,
+        43.79152679443381
+      ],
+      "id": "spainstateslabels",
+      "class": "",
+      "Datasource": {
+        "file": "layers/spainstateslabels/ESP_adm1.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "spainstateslabels"
     },
     {
       "geometry": "polygon",
@@ -342,7 +381,7 @@
         134.77392578125023,
         53.56085968017592
       ],
-      "id": "chinastatelabels",
+      "id": "chinastateslabels",
       "class": "",
       "Datasource": {
         "file": "layers/chinastateslabels/CHN_adm1.shp"
@@ -350,7 +389,7 @@
       "srs-name": "autodetect",
       "srs": "",
       "advanced": {},
-      "name": "chinastatelabels"
+      "name": "chinastateslabels"
     },
     {
       "geometry": "polygon",
@@ -447,24 +486,6 @@
       "srs": "",
       "advanced": {},
       "name": "continents"
-    },
-    {
-      "geometry": "polygon",
-      "extent": [
-        -18.161527633666992,
-        27.637361526489542,
-        4.328195095062277,
-        43.79152679443381
-      ],
-      "id": "spainstateslabels",
-      "class": "",
-      "Datasource": {
-        "file": "layers/spainstateslabels/ESP_adm1.shp"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {},
-      "name": "spainstateslabels"
     }
   ],
   "scale": 1,
