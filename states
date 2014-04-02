@@ -57,3 +57,18 @@
   text-halo-fill:rgba(255,255,255,0.5);
   text-halo-radius:2;
 }
+
+#germanstates [zoom > 5] {
+  line-color:#fff;
+  line-width:1;
+  polygon-fill:@orange;
+}
+
+#germanstateslabels [zoom > 5] {
+  text-name:"[NAME_1]";
+  text-face-name: @futura_med;
+  text-character-spacing:1;
+  text-size:10;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2;
+}

@@ -18,8 +18,8 @@
   "Stylesheet": [
     "style.mss",
     "countrycolors",
-    "labels",
-    "states"
+    "states",
+    "labels"
   ],
   "Layer": [
     {
@@ -225,6 +225,42 @@
       "srs": "",
       "advanced": {},
       "name": "russiastateslabels"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        5.87161922454851,
+        47.26985931396479,
+        15.03811264038088,
+        55.056526184082266
+      ],
+      "id": "germanstates",
+      "class": "",
+      "Datasource": {
+        "file": "layers/germanstates/DEU_adm1.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "germanstates"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        5.87161922454851,
+        47.26985931396479,
+        15.03811264038088,
+        55.056526184082266
+      ],
+      "id": "germanstateslabels",
+      "class": "",
+      "Datasource": {
+        "file": "layers/germanstateslabels/DEU_adm1.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "germanstateslabels"
     },
     {
       "geometry": "point",

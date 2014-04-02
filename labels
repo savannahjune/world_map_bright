@@ -57,7 +57,7 @@
   }
 
 #countrylabels  { 
-    [zoom < 4] {
+    [zoom < 4] [zoom > 2]['area' > 2] {
     text-name:"[abbrev]";
     text-face-name: @futura_med;
     text-size:10;
@@ -87,7 +87,7 @@
 }  
 
 
-#continents [zoom > 1] {
+#continents [zoom >= 1] {
     text-name: "[name]";
     text-face-name: @futura_bold;
     text-size:18;
@@ -109,3 +109,4 @@
 
     }
   
+
