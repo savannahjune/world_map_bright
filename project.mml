@@ -188,6 +188,45 @@
       "name": "ukstateslabels"
     },
     {
+      "geometry": "polygon",
+      "extent": [
+        -179.99999999999997,
+        41.188865661621094,
+        180,
+        81.8573226928712
+      ],
+      "id": "russiastates",
+      "class": "",
+      "Datasource": {
+        "file": "layers/russiastates/RUS_adm1.shp",
+        "id": "russiastates",
+        "project": "world_map_bright",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "russiastates"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.99999999999997,
+        41.188865661621094,
+        180,
+        81.8573226928712
+      ],
+      "id": "russiastateslabels",
+      "class": "",
+      "Datasource": {
+        "file": "layers/russiastateslabels/RUS_adm1.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "russiastateslabels"
+    },
+    {
       "geometry": "point",
       "extent": [
         -175.22056447761656,
