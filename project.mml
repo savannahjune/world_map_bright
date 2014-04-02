@@ -263,6 +263,24 @@
       "name": "germanstateslabels"
     },
     {
+      "geometry": "polygon",
+      "extent": [
+        73.55770111083979,
+        15.779999732971191,
+        134.77392578125023,
+        53.56085968017592
+      ],
+      "id": "chinastates",
+      "class": "",
+      "Datasource": {
+        "file": "layers/chinastates/CHN_adm1.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "chinastates"
+    },
+    {
       "geometry": "point",
       "extent": [
         -175.22056447761656,
@@ -321,6 +339,24 @@
       "srs": "",
       "advanced": {},
       "name": "continents"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        73.55770111083979,
+        15.779999732971191,
+        134.77392578125023,
+        53.56085968017592
+      ],
+      "id": "chinastatelabels",
+      "class": "",
+      "Datasource": {
+        "file": "layers/chinastateslabels/CHN_adm1.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "chinastatelabels"
     }
   ],
   "scale": 1,

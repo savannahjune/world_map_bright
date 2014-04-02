@@ -57,7 +57,7 @@
   }
 
 #countrylabels  { 
-    [zoom < 4] [zoom > 2]['area' > 2] {
+    [zoom < 5] [zoom > 2]['area' > 2] {
     text-name:"[abbrev]";
     text-face-name: @futura_med;
     text-size:10;
@@ -66,18 +66,20 @@
     text-transform:uppercase;
   }
   
-  [zoom >= 4] {
+  [zoom >= 5] {
     text-name: "[sovereignt]";
     text-face-name: @futura_med;
     text-size:10;
     text-halo-fill:rgba(255,255,255,0.5);
     text-halo-radius:2;
     text-transform:uppercase;
+    text-character-spacing:2;
+    text-line-spacing:2;
   }
-    [zoom >= 6] {
+    [zoom >= 7] {
     text-name: "[sovereignt]";
     text-face-name: @futura_med;
-    text-size:10;
+    text-size:14;
     text-halo-fill:rgba(255,255,255,0.5);
     text-halo-radius:2;
     text-transform:uppercase;
