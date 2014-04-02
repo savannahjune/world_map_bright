@@ -11,7 +11,21 @@
   text-halo-radius:2;
   text-character-spacing:1;
 }
-	
+
+#francestates [zoom > 5]{
+  line-color:#fff;
+  line-width:1;
+  polygon-fill:@red;
+}
+
+#francestateslabels [zoom > 5] {
+  text-name:"[NAME_1]";
+  text-face-name: @futura_med;
+  text-character-spacing:1;
+  text-size:11;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2;
+}  
 
 #ukstates [zoom >= 8] {
   line-width:0.5;
@@ -23,13 +37,10 @@
   text-name:"[NAME_2]";
   text-face-name: @futura_med;
   text-character-spacing:1;
-  text-size:10;
+  text-size:11;
   text-halo-fill:rgba(255,255,255,0.5);
   text-halo-radius:2;
 }
-
-
-
 
 #ukdivision [zoom > 5]{
   line-color:#fff;
@@ -53,7 +64,7 @@
   text-name:"[NAME_1]";
   text-face-name: @futura_med;
   text-character-spacing:1;
-  text-size:10;
+  text-size:12;
   text-halo-fill:rgba(255,255,255,0.5);
   text-halo-radius:2;
 }
@@ -68,7 +79,7 @@
   text-name:"[NAME_1]";
   text-face-name: @futura_med;
   text-character-spacing:1;
-  text-size:10;
+  text-size:12;
   text-halo-fill:rgba(255,255,255,0.5);
   text-halo-radius:2;
 }
@@ -87,3 +98,21 @@
   text-halo-fill:rgba(255,255,255,0.5);
   text-halo-radius:2;
 }
+
+#ukrainestates [zoom > 5] {
+  line-color:#fff;
+  line-width:1;
+  polygon-fill:@blue;
+}
+
+
+
+#ukrainestateslabels [zoom > 5] {
+  text-name:"[NAME_1]";
+  text-face-name: @futura_med;
+  text-character-spacing:1;
+  text-size:12;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2;
+}
+

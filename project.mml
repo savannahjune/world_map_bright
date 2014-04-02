@@ -247,6 +247,42 @@
     {
       "geometry": "polygon",
       "extent": [
+        -5.143751144409066,
+        41.3337516784668,
+        9.560416221618603,
+        51.08939743042002
+      ],
+      "id": "francestates",
+      "class": "",
+      "Datasource": {
+        "file": "layers/francestates/FRA_adm1.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "francestates"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -5.143751144409066,
+        41.3337516784668,
+        9.560416221618603,
+        51.08939743042002
+      ],
+      "id": "francestateslabels",
+      "class": "",
+      "Datasource": {
+        "file": "layers/francestateslabels/FRA_adm1.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "francestateslabels"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
         5.87161922454851,
         47.26985931396479,
         15.03811264038088,
@@ -279,6 +315,60 @@
       "srs": "",
       "advanced": {},
       "name": "chinastates"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        73.55770111083979,
+        15.779999732971191,
+        134.77392578125023,
+        53.56085968017592
+      ],
+      "id": "chinastatelabels",
+      "class": "",
+      "Datasource": {
+        "file": "layers/chinastateslabels/CHN_adm1.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "chinastatelabels"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        22.140447616577433,
+        44.38210678100586,
+        40.2180709838869,
+        52.37503433227539
+      ],
+      "id": "ukrainestates",
+      "class": "",
+      "Datasource": {
+        "file": "layers/ukrainestates/UKR_adm1.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "ukrainestates"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        22.140447616577433,
+        44.38210678100586,
+        40.2180709838869,
+        52.37503433227539
+      ],
+      "id": "ukrainestateslabels",
+      "class": "",
+      "Datasource": {
+        "file": "layers/ukrainestateslabels/UKR_adm1.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "ukrainestateslabels"
     },
     {
       "geometry": "point",
@@ -339,24 +429,6 @@
       "srs": "",
       "advanced": {},
       "name": "continents"
-    },
-    {
-      "geometry": "polygon",
-      "extent": [
-        73.55770111083979,
-        15.779999732971191,
-        134.77392578125023,
-        53.56085968017592
-      ],
-      "id": "chinastatelabels",
-      "class": "",
-      "Datasource": {
-        "file": "layers/chinastateslabels/CHN_adm1.shp"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {},
-      "name": "chinastatelabels"
     }
   ],
   "scale": 1,
