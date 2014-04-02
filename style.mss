@@ -14,7 +14,6 @@ Map {
   background-color: @water;
 }
 
-
 /* names of islands, capes, poles, waterfalls, plains 
 #regionpoints {
   marker-width:6;
@@ -29,11 +28,10 @@ Map {
   polygon-fill:@water;
 }
 
-#riverslakes [zoom >5] {
+#riverslakes [zoom > 5] {
   line-width:1;
   line-color:@water;
 }
-
 
 //river also in this label but only a few
 
@@ -66,4 +64,18 @@ Map {
   text-halo-radius:2; 
 }
 
+
+
+#riverslakeslabels [zoom > 5] {
+  [length > 6] {
+  text-name:'[name]';
+  text-face-name: @futura_med;
+  text-size:10;
+  text-halo-fill:rgba(255,255,255,0.5);
+  text-halo-radius:2; 
+  text-placement-type:simple;
+  text-placement:line;
+  text-min-distance:1000px;
+   text-max-char-angle-delta: 15;}
+}
 
