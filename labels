@@ -89,12 +89,13 @@
 }  
 
 
-#continents [zoom >= 1] {
+#continents [zoom >= 1] [zoom < 6] {
     text-name: "[name]";
     text-face-name: @futura_bold;
     text-size:18;
-    text-halo-fill:rgba(255,255,255,0.5);
-    text-halo-radius:5;
+    text-halo-fill:white;
+    //rgba(255,255,255,0.5);
+    text-halo-radius:3;
     text-transform:uppercase;
     ["name"='North America'] {
       text-dx: 1px;

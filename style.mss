@@ -79,3 +79,22 @@ Map {
    text-max-char-angle-delta: 15;}
 }
 
+
+
+#lakelabels [zoom > 4] [zoom <= 7] [scalerank < 1] {
+  text-name:'[name]';
+  text-face-name: @futura_med;
+  text-size:10;
+  text-halo-fill:white;
+  text-halo-radius:1.5; 
+  text-character-spacing:1;
+}
+
+#lakelabels [zoom > 7] [scalerank < 5]{
+  text-name:'[name]';
+  text-face-name: @futura_med;
+  text-size:11;
+  text-halo-fill:white;
+  text-halo-radius:2; 
+  text-character-spacing:1;
+}

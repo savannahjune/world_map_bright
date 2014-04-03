@@ -512,6 +512,27 @@
       "name": "ukrainestateslabels"
     },
     {
+      "geometry": "polygon",
+      "extent": [
+        -165.96558168829336,
+        -50.66966651748362,
+        177.1543791606897,
+        81.95520786930868
+      ],
+      "id": "lakelabels",
+      "class": "",
+      "Datasource": {
+        "file": "layers/lakelabels/ne_10m_lakes.shp",
+        "encoding": "windows-1252"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "encoding": "windows-1252"
+      },
+      "name": "lakelabels"
+    },
+    {
       "geometry": "linestring",
       "extent": [
         -165.2439391754922,
