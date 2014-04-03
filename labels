@@ -1,6 +1,6 @@
-@futura_med: "Futura Medium","Function Pro Medium","Ubuntu Regular","Trebuchet MS Regular","DejaVu Sans Book";
-@futura_italic: "Futura Medium Italic","Function Pro Medium Italic","Ubuntu Italic","Trebuchet MS Italic","DejaVu Sans Oblique";
-@futura_bold: "Futura Bold","Function Pro Bold","Ubuntu Bold","Trebuchet MS Bold","DejaVu Sans Bold";
+@futura_med: "Open Sans Regular","DejaVu Sans Book","unifont Medium","Futura Medium","Function Pro Medium","Ubuntu Regular","Trebuchet MS Regular","DejaVu Sans Book";
+@futura_italic: "Open Sans Regular","DejaVu Sans Book","unifont Medium","Futura Medium Italic","Function Pro Medium Italic","Ubuntu Italic","Trebuchet MS Italic","DejaVu Sans Oblique";
+@futura_bold: "Open Sans Regular","DejaVu Sans Book","unifont Medium","Futura Bold","Function Pro Bold","Ubuntu Bold","Trebuchet MS Bold","DejaVu Sans Bold";
 
 
 /* island names #geofeatures [zoom > 4] {

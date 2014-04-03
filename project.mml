@@ -36,11 +36,14 @@
         "file": "layers/regionpoints/ne_50m_geography_regions_points.shp",
         "id": "regionpoints",
         "project": "world_map_bright",
-        "srs": ""
+        "srs": "",
+        "encoding": "windows-1252"
       },
       "srs-name": "autodetect",
       "srs": "",
-      "advanced": {},
+      "advanced": {
+        "encoding": "windows-1252"
+      },
       "name": "regionpoints"
     },
     {
@@ -57,11 +60,14 @@
         "file": "layers/countries/ne_50m_admin_0_countries.shp",
         "id": "countries",
         "project": "world_map_bright",
-        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+        "encoding": "windows-1252"
       },
       "srs-name": "WGS84",
       "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
-      "advanced": {},
+      "advanced": {
+        "encoding": "windows-1252"
+      },
       "name": "countries"
     },
     {
@@ -78,11 +84,14 @@
         "file": "layers/lakespoly/ne_50m_lakes.shp",
         "id": "lakespoly",
         "project": "world_map_bright",
-        "srs": ""
+        "srs": "",
+        "encoding": "windows-1252"
       },
       "srs-name": "autodetect",
       "srs": "",
-      "advanced": {},
+      "advanced": {
+        "encoding": "windows-1252"
+      },
       "name": "lakespoly"
     },
     {
@@ -99,11 +108,14 @@
         "file": "layers/marinelabels/ne_50m_geography_marine_polys.shp",
         "id": "marinelabels",
         "project": "world_map_bright",
-        "srs": ""
+        "srs": "",
+        "encoding": "windows-1252"
       },
       "srs-name": "autodetect",
       "srs": "",
-      "advanced": {},
+      "advanced": {
+        "encoding": "windows-1252"
+      },
       "name": "marinelabels"
     },
     {
@@ -120,11 +132,14 @@
         "file": "layers/ukdivision/GBR_adm1.shp",
         "id": "ukdivision",
         "project": "world_map_bright",
-        "srs": ""
+        "srs": "",
+        "encoding": "windows-1252"
       },
       "srs-name": "autodetect",
       "srs": "",
-      "advanced": {},
+      "advanced": {
+        "encoding": "windows-1252"
+      },
       "name": "ukdivision"
     },
     {
@@ -141,11 +156,14 @@
         "file": "layers/ukstates/GBR_adm2.shp",
         "id": "ukstates",
         "project": "world_map_bright",
-        "srs": ""
+        "srs": "",
+        "encoding": "windows-1252"
       },
       "srs-name": "autodetect",
       "srs": "",
-      "advanced": {},
+      "advanced": {
+        "encoding": "windows-1252"
+      },
       "name": "ukstates"
     },
     {
@@ -162,11 +180,14 @@
         "file": "layers/russiastates/RUS_adm1.shp",
         "id": "russiastates",
         "project": "world_map_bright",
-        "srs": ""
+        "srs": "",
+        "encoding": "windows-1252"
       },
       "srs-name": "autodetect",
       "srs": "",
-      "advanced": {},
+      "advanced": {
+        "encoding": "windows-1252"
+      },
       "name": "russiastates"
     },
     {
@@ -180,11 +201,14 @@
       "id": "germanstates",
       "class": "",
       "Datasource": {
-        "file": "layers/germanstates/DEU_adm1.shp"
+        "file": "layers/germanstates/DEU_adm1.shp",
+        "encoding": "windows-1252"
       },
       "srs-name": "autodetect",
       "srs": "",
-      "advanced": {},
+      "advanced": {
+        "encoding": "windows-1252"
+      },
       "name": "germanstates"
     },
     {
@@ -198,11 +222,14 @@
       "id": "spainstates",
       "class": "",
       "Datasource": {
-        "file": "layers/spainstates/ESP_adm1.shp"
+        "file": "layers/spainstates/ESP_adm1.shp",
+        "encoding": "windows-1252"
       },
       "srs-name": "autodetect",
       "srs": "",
-      "advanced": {},
+      "advanced": {
+        "encoding": "windows-1252"
+      },
       "name": "spainstates"
     },
     {
@@ -216,11 +243,14 @@
       "id": "francestates",
       "class": "",
       "Datasource": {
-        "file": "layers/francestates/FRA_adm1.shp"
+        "file": "layers/francestates/FRA_adm1.shp",
+        "encoding": "windows-1252"
       },
       "srs-name": "autodetect",
       "srs": "",
-      "advanced": {},
+      "advanced": {
+        "encoding": "windows-1252"
+      },
       "name": "francestates"
     },
     {
@@ -234,11 +264,14 @@
       "id": "chinastates",
       "class": "",
       "Datasource": {
-        "file": "layers/chinastates/CHN_adm1.shp"
+        "file": "layers/chinastates/CHN_adm1.shp",
+        "encoding": "windows-1252"
       },
       "srs-name": "autodetect",
       "srs": "",
-      "advanced": {},
+      "advanced": {
+        "encoding": "windows-1252"
+      },
       "name": "chinastates"
     },
     {
@@ -252,11 +285,14 @@
       "id": "ukrainestates",
       "class": "",
       "Datasource": {
-        "file": "layers/ukrainestates/UKR_adm1.shp"
+        "file": "layers/ukrainestates/UKR_adm1.shp",
+        "encoding": "windows-1252"
       },
       "srs-name": "autodetect",
       "srs": "",
-      "advanced": {},
+      "advanced": {
+        "encoding": "windows-1252"
+      },
       "name": "ukrainestates"
     },
     {
@@ -270,11 +306,14 @@
       "id": "stateslines",
       "class": "",
       "Datasource": {
-        "file": "layers/stateslines/ne_50m_admin_1_states_provinces_lakes.shp"
+        "file": "layers/stateslines/ne_50m_admin_1_states_provinces_lakes.shp",
+        "encoding": "windows-1252"
       },
       "srs-name": "autodetect",
       "srs": "",
-      "advanced": {},
+      "advanced": {
+        "encoding": "windows-1252"
+      },
       "name": "stateslines"
     },
     {
@@ -291,11 +330,14 @@
         "file": "layers/states/ne_50m_admin_1_states_provinces_lakes.shp",
         "id": "states",
         "project": "world_map_bright",
-        "srs": ""
+        "srs": "",
+        "encoding": "windows-1252"
       },
       "srs-name": "autodetect",
       "srs": "",
-      "advanced": {},
+      "advanced": {
+        "encoding": "windows-1252"
+      },
       "name": "states"
     },
     {
@@ -312,11 +354,14 @@
         "file": "layers/riverslakes/ne_50m_rivers_lake_centerlines.shp",
         "id": "riverslakes",
         "project": "world_map_bright",
-        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+        "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
+        "encoding": "windows-1252"
       },
       "srs-name": "WGS84",
       "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
-      "advanced": {},
+      "advanced": {
+        "encoding": "windows-1252"
+      },
       "name": "riverslakes"
     },
     {
@@ -330,11 +375,14 @@
       "id": "francestateslabels",
       "class": "",
       "Datasource": {
-        "file": "layers/francestateslabels/FRA_adm1.shp"
+        "file": "layers/francestateslabels/FRA_adm1.shp",
+        "encoding": "windows-1252"
       },
       "srs-name": "autodetect",
       "srs": "",
-      "advanced": {},
+      "advanced": {
+        "encoding": "windows-1252"
+      },
       "name": "francestateslabels"
     },
     {
@@ -348,11 +396,14 @@
       "id": "spainstateslabels",
       "class": "",
       "Datasource": {
-        "file": "layers/spainstateslabels/ESP_adm1.shp"
+        "file": "layers/spainstateslabels/ESP_adm1.shp",
+        "encoding": "windows-1252"
       },
       "srs-name": "autodetect",
       "srs": "",
-      "advanced": {},
+      "advanced": {
+        "encoding": "windows-1252"
+      },
       "name": "spainstateslabels"
     },
     {
@@ -366,11 +417,14 @@
       "id": "ukstateslabels",
       "class": "",
       "Datasource": {
-        "file": "layers/ukstateslabels/GBR_adm2.shp"
+        "file": "layers/ukstateslabels/GBR_adm2.shp",
+        "encoding": "windows-1252"
       },
       "srs-name": "autodetect",
       "srs": "",
-      "advanced": {},
+      "advanced": {
+        "encoding": "windows-1252"
+      },
       "name": "ukstateslabels"
     },
     {
@@ -384,11 +438,14 @@
       "id": "russiastateslabels",
       "class": "",
       "Datasource": {
-        "file": "layers/russiastateslabels/RUS_adm1.shp"
+        "file": "layers/russiastateslabels/RUS_adm1.shp",
+        "encoding": "windows-1252"
       },
       "srs-name": "autodetect",
       "srs": "",
-      "advanced": {},
+      "advanced": {
+        "encoding": "windows-1252"
+      },
       "name": "russiastateslabels"
     },
     {
@@ -402,11 +459,14 @@
       "id": "germanstateslabels",
       "class": "",
       "Datasource": {
-        "file": "layers/germanstateslabels/DEU_adm1.shp"
+        "file": "layers/germanstateslabels/DEU_adm1.shp",
+        "encoding": "windows-1252"
       },
       "srs-name": "autodetect",
       "srs": "",
-      "advanced": {},
+      "advanced": {
+        "encoding": "windows-1252"
+      },
       "name": "germanstateslabels"
     },
     {
@@ -420,11 +480,14 @@
       "id": "chinastateslabels",
       "class": "",
       "Datasource": {
-        "file": "layers/chinastateslabels/CHN_adm1.shp"
+        "file": "layers/chinastateslabels/CHN_adm1.shp",
+        "encoding": "windows-1252"
       },
       "srs-name": "autodetect",
       "srs": "",
-      "advanced": {},
+      "advanced": {
+        "encoding": "windows-1252"
+      },
       "name": "chinastateslabels"
     },
     {
@@ -438,11 +501,14 @@
       "id": "ukrainestateslabels",
       "class": "",
       "Datasource": {
-        "file": "layers/ukrainestateslabels/UKR_adm1.shp"
+        "file": "layers/ukrainestateslabels/UKR_adm1.shp",
+        "encoding": "windows-1252"
       },
       "srs-name": "autodetect",
       "srs": "",
-      "advanced": {},
+      "advanced": {
+        "encoding": "windows-1252"
+      },
       "name": "ukrainestateslabels"
     },
     {
@@ -459,11 +525,14 @@
         "file": "layers/riverslakeslabels/ne_50m_rivers_lake_centerlines.shp",
         "id": "riverslakeslabels",
         "project": "world_map_bright",
-        "srs": ""
+        "srs": "",
+        "encoding": "windows-1252"
       },
       "srs-name": "autodetect",
       "srs": "",
-      "advanced": {},
+      "advanced": {
+        "encoding": "windows-1252"
+      },
       "name": "riverslakeslabels"
     },
     {
@@ -480,11 +549,14 @@
         "file": "layers/cities/ne_50m_populated_places_simple.shp",
         "id": "cities",
         "project": "world_map_bright",
-        "srs": ""
+        "srs": "",
+        "encoding": "windows-1252"
       },
       "srs-name": "autodetect",
       "srs": "",
-      "advanced": {},
+      "advanced": {
+        "encoding": "windows-1252"
+      },
       "name": "cities"
     },
     {
@@ -501,11 +573,14 @@
         "file": "layers/countrylabels/ne_50m_admin_0_countries.shp",
         "id": "countrylabels",
         "project": "world_map_bright",
-        "srs": ""
+        "srs": "",
+        "encoding": "windows-1252"
       },
       "srs-name": "autodetect",
       "srs": "",
-      "advanced": {},
+      "advanced": {
+        "encoding": "windows-1252"
+      },
       "name": "countrylabels"
     },
     {
@@ -519,11 +594,14 @@
       "id": "continents",
       "class": "",
       "Datasource": {
-        "file": "layers/continents/continents.geojson"
+        "file": "layers/continents/continents.geojson",
+        "encoding": "windows-1252"
       },
       "srs-name": "autodetect",
       "srs": "",
-      "advanced": {},
+      "advanced": {
+        "encoding": "windows-1252"
+      },
       "name": "continents"
     }
   ],
